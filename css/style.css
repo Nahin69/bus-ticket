@@ -247,6 +247,21 @@
 
 
 
+.re-from {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0307121A;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+    height: 58px;
+    color: #03071266;
+}
+        
+input::placeholder {
+    color: #bbb;
+}
+
 
 
 /* modal */
