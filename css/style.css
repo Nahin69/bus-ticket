@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    max-width: 1170px !important;
+    margin: auto !important;
+    padding: 10px;
+}
+
+
+.btn-border{
+    border: 1px solid rgba(29, 209, 0, 0.4) !important;
+}
+
+
+
+.font-raleway{
+    font-family: "Raleway", serif;
+}
+
+
+.font-inter{
+    font-family: "Inter", serif;
+}
+
+
+.font-roboto{
+    font-family: "Roboto", serif;
+}
+
+.banner-area{
+    position: relative;
+}
+
+
+.banner-text {
+    position: absolute;
+    content: "";
+    top: 65px;
+    left: 0;
+    right: 0;
+}
+
+.banner-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -55px;
+}
+
+.bnr-card {
+    margin: 0px 11px;
+    border-bottom: 3px solid rgb(29, 209, 0);
+    width: 300px;
+    border-radius: 16px;
+    height: 115px;
+    align-items: center;
+}
+
+
+/* cuppon area */
+
+.cupon-first{
+    width: 560px;
+    height: 220px;
+    border-radius: 24px;
+    background-color: #FFBF0F;
+}
+
+.cupon-second{
+    background-color: #F78C9C;
+}
+
+
+.offer-bton{
+    border: 1px solid #1DD100;
+    border-radius: 12px;
+    padding: 21px 30px;
+}
+
+
+
+/* paribahan area */
+
+.paribahan-area{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(29, 209, 0);
+    border-radius: 88px 88px 0px 0px;
+    background: rgb(247, 248, 248);
+}
+
+.bus-details {
+    border-radius: 24px;
+    padding: 0px 25px;
+}
+
+.amount-area {
+    width: 92%;
+    margin: auto;
+    background: #fff;
+    border-radius: 24px;
+}
+
+.dep-time{
+    border-top: 1px solid #03071233;
+    border-bottom: 1px solid #03071233;
+    border-style: dashed;
+}
+
+.point-button {
+    background: #0307120D;
+    width: 220px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+    /* padding: 5px 40px !important; */
+    color: #03071280 !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+
+}
+
+.seatClass{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #03071299;
+    font-family: "Inter", serif;
+    font-weight: 400;
+
+}
+
+.seat-num {
+    padding-right: 10px;
+}
+
+.seat-button{
+    width: 100px;
+}
+
+
+/* seat area*/
+
+
+.seat-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.seat-num{
+    font-size: 18px;
+    font-weight: 500;
+    color: #03071280;
+}
+
+
+.seat-group {
+    display: flex;
+    gap: 20px;
+}
+
+
+.seat {
+    width: 106px;
+    height: 50px;
+    background-color: #F7F8F8;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #03071280;
+    cursor: pointer;
+}
+
+
+.seatColor{
+    background-color: #1DD100 !important;
+    color: #FFFFFF !important;
+}
+
+.selected {
+    background-color: #32cd32;
+    color: white;
+}
+
+
+
+/* coupon area */
+
+.coupon-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #03071266;
+    padding: 10px;
+    width: 78%;
+}
+.apply-btn {
+    
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.apply-btn:hover {
+    background: #10a500;
+}
+
+
+.apply-btnColor{
+    background: #1DD100 !important;
+    color: white !important;
+}
+
+
+.next-btn{
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+    color: #03071280;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+}
+
+
+
+.next-btnColor{
+    background-color: #1DD100 !important;
+    color: #FFFFFF !important;
+}
+
+/* .next-btnColor:hover{
+    background: #10a500 !important;
+} */
+
+
+
+/* modal */
+
+
+.modal::backdrop{
+    background-color: #F7F8F8 !important;
+    animation: modal-pop .2s ease-out;
+}
+
+
+.modal-btn{
+    width: 50%;
+    height: 55px !important;
+    border-radius: 32px !important;
+    background: #27AE60 !important;
+    color: #FFFFFF !important;
+    font-family: "Roboto", serif !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}

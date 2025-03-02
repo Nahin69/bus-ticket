@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+
+     <!-- responsive css -->
+      <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+
+        .re-from {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0307121A;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+    height: 58px;
+    color: #03071266;
+}
+        input::placeholder {
+            color: #bbb;
+        }
+       
+
+    </style>
+</head>
+<body class="main-container">
+
+    <!-- header area -->
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost -ml-6 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                            <li class="text-[#030712B3]"><a>Home</a></li>
+                            <li class="text-[#030712B3]"><a href="">About</a></li>
+                            <li class="text-[#030712B3]"><a>Destination</a></li>
+                            <li class="text-[#030712B3]"><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class=" font-extrabold text-2xl lg:text-4xl font-raleway text-[#030712]">Nex<span
+                            class=" text-[#1DD100]">T</span>rip</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 ">
+                        <li class="text-[#030712B3]  font-raleway text-base mx-2"><a href="#">Home</a></li>
+                        <li class="text-[#030712B3] font-raleway text-base mx-2"><a href="#">About</a></li>
+                        <li class="text-[#030712B3] font-raleway text-base mx-2"><a href="#">Destination</a></li>
+                        <li class="text-[#030712B3] font-raleway text-base mx-2"><a href="#">Search</a></li>
+                
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn bg-[#1DD1001A] btn-border text-base flex  py-3 px-6 lg:-mr-0 rounded-[12px] font-raleway font-bold text-[#1DD100] cursor-pointer">Bus <img class="pl-2" src="images/bus-icon.png" alt=""></a
+                    button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="container">
+
+        <!-- banner area -->
+         <div class="banner-area">
+                <img width="100%" class="w-full" src="images/banner.png" alt="">
+           
+
+            <div class="banner-text text-center">
+                <h3 class="text-[#FFFFFF] font-raleway text-[18px] lg:text-[54px]  font-extrabold">End-to-End Travel with 
+                <br>
+                <span class="text-[#1DD100]">NexTrip Paribahan</span></h3>
+
+                <p class="text-[#FFFFFF] font-inter text-[10px] lg:text-[18px] mb-[15px] lg:mb-9">Experience comfort and convenience with our premium bus ticket service.
+                    <br>
+                    Enjoy high-quality seating, fully air-conditioned rides,
+                    <br>
+                    and a seamless booking experience for your next journey.</p>
+
+                <a class="bg-[#1DD100] font-raleway px-[10px] px-[10px] lg:px-[20px] py-[10px] lg:py-[15px] rounded-[8px] font-bold text-[12px] lg:text-[17px]" href="#paribahan-are">Buy Tickets</a>
+            </div>
+
+            <div class="banner-card flex justify-center">
+
+                <div class="bnr-card flex bg-[#FFFFFF]">
+                    <img class="w-[25px] lg:w-[50px] lg:h-[50px] ml-[5px] lg:ml-[30px]
+                    mr-[5px] lg:mr-[15px]" src="images/people.png" alt="">
+                    <div>
+                        <h3 class="font-inter font-bold  lg:text-[30px] ">500k+</h3>
+                        <p class="font-inter font-normal text-[10px] lg:text-[15px] text-[#03071299]"> Registered users</p>
+                    </div>
+                    
+                </div>
+
+                <div class="bnr-card flex bg-[#FFFFFF]">
+                    <img class="w-[25px] lg:w-[50px] lg:h-[50px] ml-[8px] lg:ml-[30px]
+                    mr-[5px] lg:mr-[15px]" src="images/ticket-cupon.png" alt="">
+                    <div>
+                        <h3 class="font-inter font-bold lg:text-[30px] ">1.7 Lacks</h3>
+                        <p class="font-inter font-normal text-[10px] lg:text-[15px] text-[#03071299]">Tickets sold</p>
+                    </div>
+                    
+                </div>
+
+                <div class="bnr-card flex bg-[#FFFFFF]">
+                    <img class="w-[25px] lg:w-[50px] lg:h-[50px] ml-[5px] lg:ml-[30px]
+                    mr-[5px] lg:mr-[15px]" src="images/stoppage.png" alt="">
+                    <div>
+                        <h3 class="font-inter font-bold lg:text-[30px] ">80k+</h3>
+                        <p class="font-inter font-normal text-[10px] lg:text-[15px] text-[#03071299]"> Rental partners</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+         </div>
+
+
+         <!-- Offer area -->
+
+         <div class="mt-[80px] lg:mt-[150px]">
+            <h3 class="text-center font-raleway text-[40px] font-bold text-[#030712]">Best offers for you</h3>
+            <div class="flex flex-wrap justify-between mt-[40px]">
+                <div class="flex justify-around items-center cupon-first">
+                    <p class="font-inter  lg:pt-[52px] pl-[30px]">
+                        <span class="text-[25px] lg:text-[40px] font-black">15% OFF</span>
+                        <br>
+                        <span class="text-[15px] lg:text-[20px] font-medium">on your next purchase</span>
+                        <br>
+                        <span class=" text-[15px] lg:text-[20px] font-medium text-[#03071280]">use by January 2024</span>
+                    </p>
+                    <img src="images/cupon-devider.png" alt="">
+                    <p class="text-center font-raleway pr-[20px]">
+                        <span class="text-[25px] lg:text-[35px] font-bold">NEW15</span>
+                        <br>
+                        <span class=" text-[15px] lg:text-[20px] font-medium text-[#03071266]">Coupon Code</span>
+                    </p>
+                </div>
+
+                <div class="flex justify-around items-center cupon-first cupon-second mt-[20px] lg:mt-[0px]">
+                    <p class="font-inter pl-[30px]">
+                        <span class="text-[25px] lg:text-[40px] font-black">20% OFF</span>
+                        <br>
+                        <span class="text-[15px] lg:text-[20px] font-medium">on your next purchase</span>
+                        <br>
+                        <span class="text-[15px] lg:text-[20px] font-medium text-[#03071280]">use by January 2024</span>
+                    </p>
+                    <img src="images/cupon-devider.png" alt="">
+                    <p class="text-center font-raleway pr-[10px] lg:pr-[20px]">
+                        <span class=" text-[22px] lg:text-[35px] font-bold">Couple 20</span>
+                        <br>
+                        <span class=" text-[15px] lg:text-[20px] font-medium text-[#03071266]">Coupon Code</span>
+                    </p>
+                </div>
+                
+              
+                
+            </div>
+            
+         </div>
+         <div class="text-center mt-[62px]">
+            <a class="offer-bton font-raleway font-bold text-[15px] lg:text-[18px] text-[#1DD100]" href="#">See All Offers</a>
+        </div>
+
+
+         <!-- paribahan area -->
+
+         <div id="paribahan-are" class="paribahan-area mt-[150px] pb-[150px]">
+            <h3 class="mt-[100px] lg:mt-[150px] text-center mb-[24px] font-raleway text-[25px] lg:text-[40px] font-bold text-[#030712]">NexTrip Paribahan</h3>
+            <p class="text-center font-inter text-[#03071299]  lg:text-[18px] mb-[50px]">Experience comfort and convenience with our premium bus ticket service.
+                <br>
+                Enjoy high-quality seating, fully air-conditioned rides,
+                <br>
+                and a seamless booking experience for your next journey.
+            </p>
+
+
+            <div class="amount-area flex flex-wrap justify-evenly items-center">
+                <div class=" w-[90%] py-[10px] lg:w-[70%]">
+                    <div class="flex justify-between pb-[20px]">
+                        <div class="flex">
+                            <img class="w-[20%] lg:w-[60px] h-[30px] lg:h-[50px] mt-[10px] mr-[10px]" src="images/bus-logo.png" alt="">
+                            <div class="">
+                                <h2 class="font-raleway text-[19px] lg:text-[30px] font-bold text-[#030712]">NexTrip</h2>
+                                <p class="font-inter text-[12px] lg:text-[17px] text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div class=" w-[196px]  lg:w-[186px]">
+                            <a class="bg-[#1DD1001A] text-[12px] lg:text-[16px]  flex px-[20px] lg:py-3 py-[10px] lg:px-6 lg:-mr-0 rounded-[12px] font-inter font-bold text-[#1DD100] cursor-pointer"><img class="pr-1 lg:pr-2 w-[24px] h-[18px] lg:w-[33px] lg:h-[22px]" src="images/seat-green.png" alt=""> <span id="seat-count" class=" pr-[3px] lg:pr-[7px]">40</span> Seats left</a>
+                            
+                        </div>
+                    </div>
+                    <div class="bus-details bg-[#F7F8F8]">
+                        <div class="flex justify-between pt-[20px] pb-[20px]">
+                            <p class="text-[#03071299] font-raleway font-semibold">Route</p>
+                            <p class="font-raleway font-semibold">Dhaka-Sylhet</p>
+                        </div>
+                        <div class="flex justify-between dep-time  pt-[20px] pb-[20px]">
+                            <p class="text-[#03071299] font-raleway font-semibold">Departure time</p>
+                            <p class="font-raleway font-semibold">9:00PM</p>
+                        </div>
+                        <div class="pt-[40px] pb-[40px] flex flex-wrap  justify-evenly justify-center">
+                            <a class="point-button font-inter text-[#030712CC]" href="#">Boarding Point - Laxmipur</a>
+                            <a class="point-button font-inter text-[#030712CC]" href="#">Dropping Point - Bogura</a>
+                            <a class="point-button font-inter text-[#030712CC]" href="#">Est. Time - 11 Hour</a>
+                        </div>
+                    </div>
+                </div>
+                <img class="dashed-line" src="images/info-devider.png" alt="">      
+                <div class="text-center pr-[25px] py-[20px] lg:py-[0px]">
+                    <img class="m-[auto]" src="images/fare.png" alt="">
+                    <div class="">
+                        <p class="text-[#030712] font-bold text-[25px] font-raleway">550 Taka</p>
+                        <p class="font-raleway text-[#03071299] font-semibold text-[18px]">Per Seat</p>
+                    </div>
+                </div>          
+            </div>
+
+
+            <div class="amount-area mt-[30px] grid  lg:grid-cols-12 pt-[30px] pb-[30px] ">
+                <div class="lg:col-span-7 px-[5%]  lg:border-r-2 lg:border-dashed border-[#0307124D]">
+                    
+                    <h3 class="font-raleway font-semibold text-[22px] pb-[15px]">Select Your Seat</h3>
+                    <div class="flex justify-between dep-time  pt-[10px] pb-[10px]">
+                        <p class="text-[#03071299] font-inter font-medium flex"><img class="pr-1" src="images/seat-gray.png" alt="">Available</p>
+                        <p class="font-inter font-medium flex text-[#1DD100]"><img class="pr-1" src="images/seat-green-filled.png" alt="">Selected</p>
+                    </div>
+                    <div class="mt-[20px] mb-[20px] text-right ">
+                        <button class="btn lg:px-[40px]"> <img width="22px"  src="images/steering.png" alt=""></button>
+                    </div>
+                    <div class="flex justify-between">
+                        <ul class="">
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">A</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">A1</button>
+                                    <button class="btn seat font-inter seat-btn">A2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">B</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">B1</button>
+                                    <button class="btn seat font-inter seat-btn">B2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">C</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">C1</button>
+                                    <button class="btn seat font-inter seat-btn">C2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">D</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">D1</button>
+                                    <button class="btn seat font-inter seat-btn">D2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">E</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">E1</button>
+                                    <button class="btn seat font-inter seat-btn">E2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">F</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">F1</button>
+                                    <button class="btn seat font-inter seat-btn">F2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">G</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">G1</button>
+                                    <button class="btn seat font-inter seat-btn">G2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">H</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">H1</button>
+                                    <button class="btn seat font-inter seat-btn">H2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">I</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">I1</button>
+                                    <button class="btn seat font-inter seat-btn">I2</button>
+                                </div>
+                            </li>
+                    
+
+                            <li class="seat-area">
+                                <span class="seat-num font-inter">J</span>
+                                <div class="seat-group">
+                                    <button class="btn seat font-inter seat-btn">J1</button>
+                                    <button class="btn seat font-inter seat-btn">J2</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="">
+
+                            <li class="seat-area seat-group flex justify-end ">
+                                <button class="btn seat font-inter seat-btn">A3</button>
+                                <button class="btn seat font-inter seat-btn">A4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">B3</button>
+                                <button class="btn seat font-inter seat-btn">B4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">C3</button>
+                                <button class="btn seat font-inter seat-btn">C4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">D3</button>
+                                <button class="btn seat font-inter seat-btn">D4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">E3</button>
+                                <button class="btn seat font-inter seat-btn">E4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">F3</button>
+                                <button class="btn seat font-inter seat-btn">F4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">G3</button>
+                                <button class="btn seat font-inter seat-btn">G4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">H3</button>
+                                <button class="btn seat font-inter seat-btn">H4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">I3</button>
+                                <button class="btn seat font-inter seat-btn">I4</button>
+                            </li>
+                    
+
+                            <li class="seat-area seat-group flex justify-end">
+                                <button class="btn seat font-inter seat-btn">J3</button>
+                                <button class="btn seat font-inter seat-btn">J4</button>
+                            </li>
+                        </ul>
+                    
+                    </div>
+
+                </div>
+                <div class="lg:col-span-5 px-[5%]">
+                    <h3 class="font-raleway font-semibold text-[22px] pb-[15px] border-b border-dashed border-[#03071233]">Select Your Seat</h3>
+                    <div class="bg-[#F7F8F8] rounded-[12px] mt-[20px] px-[7%]">
+                        <div class="flex justify-between  m-auto border-b border-dashed  pt-[25px] pb-[10px]">
+                            <p class="font-inter font-medium text-[#030712]">Seat <span id="ticket-count" class="text-[12px] bg-[#1DD100] rounded-[7px] text-[#FFFFFF] font-inter font-bold px-[9px]">0</span></p>
+                            <p class="font-inter font-medium text-[#030712]">Class</p>
+                            <p class="font-inter font-medium text-[#030712]">Price</p>
+                        </div>
+
+                        <div id="selected-seat-num"></div>
+                        
+                        <div class="flex justify-between pt-[15px] border-t  border-[#03071233]">
+                            <p class="font-inter font-medium text-[#030712] text-[16px]">Total Price</p>
+                            <p class="font-inter font-medium text-[#030712] text-[16px]">BDT <span id="total-price">0</span></p>
+                        </div>
+
+                        <div id="discount-price"></div>
+
+                        <div id="couponSection" class="bg-[#FFFFFF] p-[3%] rounded-[12px] flex justify-between mt-[15px] mb-[20px]">
+                            <input id="coupon-code" type="text" class="coupon-input" placeholder="Have any coupon?">
+                            <button id="applybtn" onclick="updateGrandTotal('applybtn')" class="btn apply-btn">Apply</button>
+                        </div>
+                        <div class="flex justify-between pb-[25px]">
+                            <p class="font-inter font-medium text-[#030712] text-[16px]">Grand Total</p>
+                            <p class="font-inter font-medium text-[#030712] text-[16px]">BDT <span id="grand-total">0</span></p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="mb-[20px] mt-[25px]">
+                        <label class="block font-inter font-semibold mb-[10px]">Passenger Name*</label>
+                        <input class="re-from font-inter" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="block font-inter font-semibold mb-[10px]">Phone Number*</label>
+                        <input id="phoneNumber" class="re-from font-inter" type="tel" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-[20px]">
+                        <label class="block font-inter font-semibold mb-[10px]">Email ID*</label>
+                        <input class="re-from font-inter" type="text" placeholder="Enter your email id">
+                    </div>
+                    
+                    <button id="next-btn" onclick="my_modal_1.showModal()" class="btn next-btn font-raleway">Next</button>
+                    <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" >open modal</button> -->
+<dialog id="my_modal_1" class="modal">
+  <div class=" w-[90%] lg:w-[50%] bg-[#ffffff] text-center">
+    <img class="m-auto pt-[57px] w-[100px] lg:w-[10%]" src="images/success.png" alt="">
+    <h3 class=" font-bold font-roboto text-[#27AE60] font-bold text-[24px] pb-[20px] pt-[20px]">SUCCESS</h3>
+    <p class="font-roboto text-[#4A4A4A] text-[20px] font-medium mb-[20px] ">
+        Thank you for Booking Our Bus Seats. 
+        <br>
+        We are working hard to find the best service and deals for you.
+    </p>
+    <p class="font-roboto text-[#4A4A4A] text-[20px] font-light">Shortly you will find a confirmation in your email.</p>
+    <div class="pt-[20px] pb-[50px]">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn modal-btn">Continue</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+                    <div class="flex justify-around mt-[25px]">
+                        <a class="font-inter text-[#03071299] underline underline-offset-2 text-[15px]" href="#">Terms and Conditions</a>
+                        <a class="font-inter text-[#03071299] underline underline-offset-2 text-[15px]" href="#">Cancellation Policy</a>
+                    </div>
+                    
+                </div>
+            </div>
+         </div>
+    </main>
+
+    <footer class="container">
+        <div class="w-[100%] bg-[#030712] px-[5%]">
+            <div class="flex flex-col  lg:flex-row justify-between pt-[120px]">
+                <div>
+                    <p class="font-raleway font-extrabold text-[#FFFFFF] text-[30px]">P-Ticket</p>
+                    <p class="font-inter text-[#FFFFFFCC] pt-[15px]">
+                        P-Ticket is a digital platform to make your
+                         <br>
+                         daily commuting better.</p>
+                </div>
+                <div class="pt-[40px] lgpt-[0px]">
+                    <p class="text-[#FFFFFF] font-raleway font-semibold text-[20px] pb-[20px]">Download our app</p>
+                    <a href="#"><img src="images/playstore2.png" alt=""></a>    
+                    
+                </div>
+            </div>
+            <div class="mt-[50px] border-t border-dashed border-[#FFFFFF4D] grid lg:grid-cols-12 pt-[30px] pb-[120px]">
+                <p class="text-[#FFFFFFB3] font-inter col-span-6">@all rights reserved, P-Ticket services limited.2024</p>
+
+                <div class="flex justify-around flex-wrap pt-[25px] pt-[0px] col-span-6">
+                    <p class="text-[#FFFFFF] font-inter">Terms & condition</p>
+                    <p class="text-[#FFFFFF] font-inter">Return & refund policy</p>
+                    <p class="text-[#FFFFFF] font-inter">Privacy policy</p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="js/apps.js"></script>
+</body>
+</html>
